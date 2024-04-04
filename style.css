@@ -251,6 +251,7 @@ body {
 }
 
 /* asasasasa */
+<<<<<<< HEAD
 .footer-distributed{
 	background: #484949;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -259,6 +260,12 @@ body {
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+>>>>>>> f98ec70e9f07f883fb62cb365071a7b999b49719
 }
 
 .footer-distributed .footer-left,
