@@ -8,24 +8,24 @@ body {
   color: #262626;
 }
 
-/* Color of the navbar BEFORE scroll */
+
 .navbar-scroll {
   background-color: #FFC017;
 }
 
-/* Color of the links AFTER scroll */
+
 .navbar-scrolled .nav-link,
 .navbar-scrolled .navbar-toggler-icon,
 .navbar-scroll .navbar-brand {
   color: #262626;
 }
 
-/* Color of the navbar AFTER scroll */
+
 .navbar-scrolled {
   background-color: #fff;
 }
 
-/* An optional height of the navbar AFTER scroll */
+
 .navbar.navbar-scroll.navbar-scrolled {
   padding-top: auto;
   padding-bottom: auto;
@@ -160,51 +160,49 @@ body {
   text-align: center;
 }
 
-/*** Fruits Start ***/
-.fruite .tab-class .nav-item a.active {
+
+.produk .tab-class .nav-item a.active {
   background: var(--bs-secondary) !important;
 }
 
-.fruite .tab-class .nav-item a.active span {
+.produk .tab-class .nav-item a.active span {
   color: var(--bs-white) !important; 
 }
 
-.fruite .fruite-categorie .fruite-name {
+.produk .produk-categorie .produk-name {
   line-height: 40px;
 }
 
-.fruite .fruite-categorie .fruite-name a {
+.produk .produk-categorie .produk-name a {
   transition: 0.5s;
 }
 
-.fruite .fruite-categorie .fruite-name a:hover {
+.produk .produk-categorie .produk-name a:hover {
   color: var(--bs-secondary);
 }
 
-.fruite .fruite-item {
+.produk .produk-item {
   height: 100%;
   transition: 0.5s;
 }
-.fruite .fruite-item:hover {
+.produk .produk-item:hover {
   box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
 }
 
-.fruite .fruite-item .fruite-img {
+.produk .produk-item .produk-img {
   overflow: hidden;
   transition: 0.5s;
   border-radius: 10px 10px 0 0;
 }
 
-.fruite .fruite-item .fruite-img img {
+.produk .produk-item .produk-img img {
   transition: 0.5s;
 }
 
-.fruite .fruite-item .fruite-img img:hover {
+.produk .produk-item .produk-img img:hover {
   transform: scale(1.3);
 }
-/*** Fruits End ***/
 
-/*** Button Start ***/
 .btn {
   font-weight: 600;
   transition: .5s;
@@ -250,7 +248,7 @@ body {
   color: var(--bs-white) !important;
 }
 
-/* asasasasa */
+
 .footer-distributed{
 	background: #484949;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -273,13 +271,13 @@ body {
 	vertical-align: top;
 }
 
-/* Footer left */
+
 
 .footer-distributed .footer-left{
 	width: 40%;
 }
 
-/* The company logo */
+
 
 .footer-distributed h3{
 	color:  #ffffff;
@@ -291,7 +289,7 @@ body {
 	color:  lightseagreen;
 }
 
-/* Footer links */
+
 
 .footer-distributed .footer-links{
 	color:  #ffffff;
@@ -314,7 +312,7 @@ body {
 	margin: 0;
 }
 
-/* Footer Center */
+
 
 .footer-distributed .footer-center{
 	width: 35%;
@@ -372,7 +370,7 @@ body {
   content: none;
 }
 
-/* Footer Right */
+
 
 .footer-distributed .footer-right{
 	width: 20%;
